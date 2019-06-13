@@ -15,6 +15,7 @@
 		FFF2F47922A865FC000D2FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF2F47722A865FC000D2FFE /* Main.storyboard */; };
 		FFF2F47B22A865FE000D2FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF2F47A22A865FE000D2FFE /* Assets.xcassets */; };
 		FFF2F47E22A865FE000D2FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF2F47C22A865FE000D2FFE /* LaunchScreen.storyboard */; };
+		FFF58FBE22B109CF00E120AF /* SwipeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF58FBD22B109CF00E120AF /* SwipeTableTableViewController.swift */; };
 		FFFBCF5422AAB78600DF2D3A /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFBCF5322AAB78600DF2D3A /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		FFF2F47A22A865FE000D2FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFF2F47D22A865FE000D2FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFF2F47F22A865FE000D2FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF58FBD22B109CF00E120AF /* SwipeTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableTableViewController.swift; sourceTree = "<group>"; };
 		FFFBCF5322AAB78600DF2D3A /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				FFFBCF5322AAB78600DF2D3A /* CategoryViewController.swift */,
+				FFF58FBD22B109CF00E120AF /* SwipeTableTableViewController.swift */,
 				FFF2F47522A865FC000D2FFE /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF409E6F22AEABC200575A40 /* Item.swift in Sources */,
+				FFF58FBE22B109CF00E120AF /* SwipeTableTableViewController.swift in Sources */,
 				FFFBCF5422AAB78600DF2D3A /* CategoryViewController.swift in Sources */,
 				FFF2F47622A865FC000D2FFE /* TodoListViewController.swift in Sources */,
 				FFF2F47422A865FC000D2FFE /* AppDelegate.swift in Sources */,
