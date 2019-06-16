@@ -41,17 +41,12 @@ class TodoListViewController: SwipeTableTableViewController {
     
     // MARK: - Nav bar setup methods
     
-    func updateNavBar(withHexCode colourHexCode: String) {
-        guard let navBar = navigationController?.navigationBar else {
-            fatalError("Navigation controller does not exist.")
-        }
-        
-        guard let navBarColour = UIColor(hexString: colourHexCode) else { fatalError() }
-        navBar.barTintColor = navBarColour
-        navBar.tintColor = ContrastColorOf(navBarColour, returnFlat: true)
-        navBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor : ContrastColorOf(navBarColour, returnFlat: true)]
+    override func updateNavBar(withHexCode colourHexCode: String) -> UIColor? {
+        let navBarColour = super.updateNavBar(withHexCode: colourHexCode)
         
         searchBar.barTintColor = navBarColour
+        
+        return nil
     }
     
     // MARK: - TableView Datasource Methods

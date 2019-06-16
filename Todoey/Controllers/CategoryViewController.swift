@@ -23,6 +23,10 @@ class CategoryViewController: SwipeTableTableViewController {
         
         tableView.separatorStyle = .none
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        updateNavBar(withHexCode: "FF85FF")
+    }
 
     // MARK: - Table view data source methods
     
@@ -115,5 +119,11 @@ class CategoryViewController: SwipeTableTableViewController {
         }
         
         present(alert, animated: true, completion: nil)
+    }
+    
+    // MARK: - Nav bar setup methods
+    
+    override func updateNavBar(withHexCode colourHexCode: String) -> UIColor? {
+        return super.updateNavBar(withHexCode: colourHexCode)
     }
 }
